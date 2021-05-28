@@ -1,20 +1,24 @@
-import $ from 'jquery';
+import './About.css'
+import Headshot from '../images/headshot.gif'
+import LinkedIn from '../images/linkedInWhite.png'
+import GitHub from '../images/gitHubIcon.png'
 
 const About = () => {
     return (
         <>
-            <div className="aboutPage">
-                <div className="container" style={{ backgroundColor: "white" }}>
+            <div style={{ backgroundColor: "dodgerblue" }} className="aboutPage">
+                <div className="container">
                     <div className="row">
-                        <div className="card">
-                            <div className="card-body">
-                                <p className="card-text">
-                                Hi, my name is Kevin and I am a software engineer with a background in biotechnology.
-                                 After obtaining my masters degree in biotechnology and working in research, I decided to pursue an exciting
-                                  and challenging career in software where I can continue working on solving problems but at a much faster pace.
-                                </p>
-                            </div>
+                        <div className="image-container mt-2" >
+                            <img id="headshot" src={Headshot} alt="Headshot" />
                         </div>
+                        <h2 className="col-12 text-center">Kevin Auer</h2>
+                        <div className="media-container mb-2">
+                            <a href="https://www.linkedin.com/in/kevin-auer-870573165/"><img src={LinkedIn} alt="LinkedIn" className="media-picture mr-1"></img></a>
+                            <a href="https://github.com/KvnAuer"><img src={GitHub} alt="LinkedIn" className="media-picture ml-1"></img></a>
+                        </div>
+                        <hr />
+                        <h4 className="col-12 text-center">Software Developer</h4>
                     </div>
                 </div>
             </div>
@@ -22,9 +26,9 @@ const About = () => {
     )
 }
 
-$(document).ready(function() {
-    $("body").css("background-color", "white");
-})
+// $(document).ready(function() {
+//     $("body").css("background-color", "white");
+// })
 
 
 

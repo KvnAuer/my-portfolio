@@ -1,5 +1,6 @@
 import './Home.css'
 
+
 function Home() {
 
     return (
@@ -13,5 +14,10 @@ function Home() {
         </div>
     )
 }
+
+// $(document).ready(function() {
+//     $("body").css("background-color", "black");
+// })
+
 
 export default Home;
