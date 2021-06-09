@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './components/Home';
 import About from './components/About';
+import Contact from './components/Contact';
 import React, { Component } from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 // import background from './images/images.png';
@@ -28,6 +29,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path ="/About" component={About} />
           <Route exact path="/Projects" />
+          <Route exact path="/Contact" component={Contact} />
         </Switch>
       </>
     );
