@@ -14,8 +14,8 @@ const About = () => {
                         </div>
                         <h2 className="col-12 text-center">Kevin Auer</h2>
                         <div className="media-container mb-2">
-                            <a href="https://www.linkedin.com/in/kevin-auer-870573165/"><img src={LinkedIn} alt="LinkedIn" className="media-picture mr-1"></img></a>
-                            <a href="https://github.com/KvnAuer"><img src={GitHub} alt="LinkedIn" className="media-picture ml-1"></img></a>
+                            <a href="https://www.linkedin.com/in/kevin-auer-870573165/"><img src={LinkedIn} alt="LinkedIn" className="media-picture mx-1"></img></a>
+                            <a href="https://github.com/KvnAuer"><img src={GitHub} alt="LinkedIn" className="media-picture mx-1"></img></a>
                         </div>
                         <hr style={{ color: "black" }} />
                         <h4 className="col-12 text-center">Software Developer</h4>
@@ -58,8 +58,8 @@ const About = () => {
                         <div className="col-md-5 col-sm-12 ml-5">
                             <p style={{ backgroundColor: "Aqua" }} className="about">My personal interests include:</p>
                             <ul style={{ backgroundColor: "Aqua" }} className="about">
-                                <li>Some of my personal intere</li>
-                                <li>Helped design the UX and UI of current project.</li>
+                                <li>Learning new technologies, which includes taking classes on Udemy or EDX</li>
+                                <li>Playing with my microcontroller or raspberry pi</li>
                             </ul>
                         </div>
                     </div>
@@ -68,6 +68,8 @@ const About = () => {
         </>
     )
 }
+
+
 
 
 
